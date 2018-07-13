@@ -17,46 +17,26 @@
             </li>
             <li class="treeview @Html.IsSelected(controller: "Charts")">
                 <a href="@Url.Action("Chartjs", "Charts")">
-                    <i class="fa fa-pie-chart"></i>
-                    <span>Charts</span>
+                    <span>Gestão</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li class="@Html.IsSelected(action: "Chartjs")"><a href="@Url.Action("Chartjs", "Charts")"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-                    <li class="@Html.IsSelected(action: "Morris")"><a href="@Url.Action("Morris", "Charts")"><i class="fa fa-circle-o"></i> Morris</a></li>
-                    <li class="@Html.IsSelected(action: "Flot")"><a href="@Url.Action("Flot", "Charts")"><i class="fa fa-circle-o"></i> Flot</a></li>
-                    <li class="@Html.IsSelected(action: "Inline")"><a href="@Url.Action("Inline", "Charts")"><i class="fa fa-circle-o"></i> Inline charts</a></li>
-                </ul>
-            </li>
-            <li class="treeview @Html.IsSelected(controller: "UI")">
-                <a href="@Url.Action("General", "UI")">
-                    <i class="fa fa-laptop"></i>
-                    <span>UI Elements</span>
-                    <span class="pull-right-container">
-                        <i class="fa fa-angle-left pull-right"></i>
-                    </span>
-                </a>
-                <ul class="treeview-menu">
-                    <li class="@Html.IsSelected(action: "General")"><a href="@Url.Action("General", "UI")"><i class="fa fa-circle-o"></i> General</a></li>
-                    <li class="@Html.IsSelected(action: "Icons")"><a href="@Url.Action("Icons", "UI")"><i class="fa fa-circle-o"></i> Icons</a></li>
-                    <li class="@Html.IsSelected(action: "Buttons")"><a href="@Url.Action("Buttons", "UI")"><i class="fa fa-circle-o"></i> Buttons</a></li>
-                    <li class="@Html.IsSelected(action: "Timeline")"><a href="@Url.Action("Timeline", "UI")"><i class="fa fa-circle-o"></i> Timeline</a></li>
-                    <li class="@Html.IsSelected(action: "Modals")"><a href="@Url.Action("Modals", "UI")"><i class="fa fa-circle-o"></i> Modals</a></li>
+                    <li class="@Html.IsSelected(action: "Chartjs")"><a href="@Url.Action("Chartjs", "Charts")"><i class="fa fa-circle-o"></i> Gestão</a></li>
                 </ul>
             </li>
             <li class="treeview @Html.IsSelected(controller: "Forms")">
                 <a href="@Url.Action("General", "Forms")">
-                    <i class="fa fa-edit"></i> <span>Forms</span>
+                    <span>Cadastros</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li class="@Html.IsSelected(action: "General")"><a href="@Url.Action("General", "Forms")"><i class="fa fa-circle-o"></i> General Elements</a></li>
-                    <li class="@Html.IsSelected(action: "Advanced")"><a href="@Url.Action("Advanced", "Forms")"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-                    <li class="@Html.IsSelected(action: "Editors")"><a href="@Url.Action("Editors", "Forms")"><i class="fa fa-circle-o"></i> Editors</a></li>
+                    <li class="@Html.IsSelected(action: "General")"><a href="@Url.Action("General", "Forms")"><i class="fa fa-circle-o"></i> Cadastros</a></li>
+                    <!-- <li class="@Html.IsSelected(action: "Advanced")"><a href="@Url.Action("Advanced", "Forms")"><i class="fa fa-circle-o"></i> Advanced Elements</a></li> -->
+                    <!-- <li class="@Html.IsSelected(action: "Editors")"><a href="@Url.Action("Editors", "Forms")"><i class="fa fa-circle-o"></i> Editors</a></li> -->
                 </ul>
             </li>
             <li class="treeview @Html.IsSelected(controller: "Tables")">
